@@ -18,10 +18,10 @@ header{
 .card {
     height: 450px;
 }
-.col > div{
-    background: ffccbc;
-    
+#bold {
+    font-size: 22px;
 }
+
 
 .brand-logo {
     font-family: 'Roboto Condensed', sans-serif;
@@ -42,59 +42,25 @@ h5 {
     padding-top: 50px;
 }
 
-.flow-text {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-ul.a {
-    list-style-type: circle;
-}
-
-
-li{
-    font-size: 20px;
-}
-
-
-
-
 .section{
     padding-top: 4vw;
     padding-bottom: 4vw;
-}
-.tabs .indicator{
-    background-color: black;
-}
-.tabs .tab a:focus, .tabs .tab a:focus.active{
-    background: transparent;
-}
-#div_top_hypers {
-    background-color:#eeeeee;
-    display:inline;      
-}
-#ul_top_hypers li{
-    display: inline;
 }
 
 @media screen and (max-width: 670px){
     header{
       min-height: 500px;
     }
+    .brand-logo.deep-orange-text.text-darken-3{
+            font-size: 1.5em;
+    }
 }
 
-@media screen and (max-width: 603px){
-  input.select-dropdown.dropdown-trigger{
-        font-size: 1em;
-    }
-} 
 
 
-@media screen and (max-width: 507px){
-    .brand-logo.deep-orange-text.text-darken-4{
-        font-size: 1.5em;
-    }
-    input.select-dropdown.dropdown-trigger{
-        font-size: .8em;
+@media screen and (max-width: 650px){
+    .brand-logo.deep-orange-text.text-darken-3 {
+        font-size: 1.25em;
+        color:black;
     }
 }
