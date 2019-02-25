@@ -1,14 +1,23 @@
 header{
-    background: url("../images/7.jpg");
+    background: url("../images/p14.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 1000px;
+    min-height: 600px;
 }
-
+.inline-icon {
+    vertical-align: bottom;
+    font-size: 18px !important;
+    padding-left: 50px;
+ }
 .container {
     width: 80%;
 }
-
+.card-image {
+    height: 100px;
+}
+.card {
+    height: 450px;
+}
 .col > div{
     background: ffccbc;
     
@@ -29,6 +38,10 @@ h3 {
     text-transform: uppercase;
 }
 
+h5 {
+    padding-top: 50px;
+}
+
 .flow-text {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
@@ -45,14 +58,6 @@ li{
 
 
 
-#button {
-    float: right;
-}
-
-#add-review-button {
-    float: right;
-}
-
 
 .section{
     padding-top: 4vw;
@@ -64,7 +69,13 @@ li{
 .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
 }
-
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;      
+}
+#ul_top_hypers li{
+    display: inline;
+}
 
 @media screen and (max-width: 670px){
     header{
